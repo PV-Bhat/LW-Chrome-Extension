@@ -1,0 +1,43 @@
+<!-- popup.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Export Conversations</title>
+  <style>
+    body {
+      min-width: 200px;
+      min-height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+    #status {
+      font-size: 14px;
+      color: green;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <button id="exportBtn">Export Conversations</button>
+    <div id="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

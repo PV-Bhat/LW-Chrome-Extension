@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "LW Meta Business Suite Conversation Exporter",
+  "version": "1.0",
+  "description": "Export Meta Business Suite conversations as JSON",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*.facebook.com/*",
+    "*://*.meta.com/*",
+    "*://*.business.facebook.com/*"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
