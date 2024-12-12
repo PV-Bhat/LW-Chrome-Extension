@@ -45,7 +45,20 @@ LW Chrome Extension is a simple browser-based tool that enables users to export 
 4. JSON files will automatically be saved to your browser's default Downloads directory. If the directory requires adjustment, see customization steps below.
 5. The status message will indicate progress and completion.
 
-### Customizing the Export Folder
+## Integration with Meta-Labeler
+
+The LW Chrome Extension integrates seamlessly with [Meta-Labeler](https://github.com/PV-Bhat/Meta-Labeler/blob/main/README.md), a lightweight tool for labeling and analyzing conversation data. Here's how they work together:
+
+### Workflow
+1. **Export Conversations**: Use LW Chrome Extension to download conversations from Meta Business Suite as JSON files.
+2. **Process Data**: Import the exported JSON files into Meta-Labeller for labeling and analysis.
+3. **Export Results**: Generate structured insights (e.g., Excel files) for business workflows like lead scoring or customer support optimization.
+
+### Leads Wizard Ecosystem
+Both the LW Chrome Extension and Meta-Labeler are part of the evolving **[Leads Wizard](https://github.com/PV-Bhat/LeadsWizard/tree/main)** ecosystem, which aims to streamline lead management and conversational insights. Stay tuned for updates!
+
+
+## Customizing the Export Folder
 
 If you need to save JSON files in a specific location:
 
