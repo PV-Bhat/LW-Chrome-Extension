@@ -1,5 +1,8 @@
 # LW Chrome Extension
-
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![DOI](https://zenodo.org/badge/902391542.svg)](https://doi.org/10.5281/zenodo.14846469)
 LW Chrome Extension is a simple browser-based tool that enables users to export conversations from Meta Business Suite into JSON files, making it easy to analyze and process customer interaction data. This extension seamlessly integrates with Meta platforms, ensuring a smooth data extraction process.
 
 ## Features
